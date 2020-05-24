@@ -1,0 +1,26 @@
+{
+  "name": "webpack5-vs-webpack4-examples",
+  "version": "1.0.0",
+  "description": "Examples showcasing Webpack 5 vs Webpack 4",
+  "repository": "https://github.com/wxy1995/webpack5-vs-webpack4-examples",
+  "author": "Xinyu Wang <travel2wxy@gmail.com> (https://github.com/wxy1995)",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "nodejs-polyfill/*",
+      "tree-shacking/*",
+      "federation-basic/*"
+    ]
+  },
+  "devDependencies": {
+    "lerna": "3.20.2",
+    "prettier": "2.0.4",
+    "pretty-quick": "2.0.1",
+    "concurrently": "5.2.0"
+  },
+  "scripts": {
+    "submodules": "git pull --recurse-submodules",
+    "prettier": "prettier --write \"**/*.{js,json,md,ts,tsx}\"",
+    "prettier:check": "prettier --list-different \"**/*.{js,json,md,ts,tsx}\""
+  }
+}

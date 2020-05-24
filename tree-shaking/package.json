@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "lerna run --scope @tree-shacking/* --parallel start",
+    "build": "lerna run --scope @tree-shacking/* build",
+    "serve": "lerna run --scope @tree-shacking/* --parallel serve",
+    "clean": "lerna run --scope @tree-shacking/* --parallel clean"
+  }
+}

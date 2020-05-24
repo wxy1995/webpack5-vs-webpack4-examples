@@ -1,0 +1,18 @@
+{
+  "name": "@nodejs-polyfill/webpack5",
+  "version": "1.0.0",
+  "private": true,
+  "devDependencies": {
+    "webpack": "5.0.0-beta.16",
+    "webpack-cli": "3.3.11",
+    "webpack-dev-server": "3.11.0"
+  },
+  "scripts": {
+    "start": "webpack --mode development",
+    "build": "webpack --mode production",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "crypto-js": "4.0.0"
+  }
+}

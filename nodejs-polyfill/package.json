@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "lerna run --scope @nodejs-polyfill/* --parallel start",
+    "build": "lerna run --scope @nodejs-polyfill/* build",
+    "serve": "lerna run --scope @nodejs-polyfill/* --parallel serve",
+    "clean": "lerna run --scope @nodejs-polyfill/* --parallel clean"
+  }
+}
